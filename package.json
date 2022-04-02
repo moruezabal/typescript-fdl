@@ -1,0 +1,16 @@
+{
+  "name": "typescript-fdl",
+  "version": "1.0.0",
+  "description": "TypeScript exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "t"
+  },
+  "author": "Mauricio",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {}
+}
