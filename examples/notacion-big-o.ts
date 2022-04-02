@@ -13,10 +13,14 @@ const iterate = (arr:string[]):void => {
 
 //Complejidad temporal: cuadrática -> 0(n*n)
 
-/* function iterateTable = (arr:number[][]):void => {
-    arr.forEach = arr2 => {
-        arr2.forEach = element => {
-            console.log(element);
-        };
-    };
-} */
+const iterateTable = (arr:number[][]):void => {
+    arr.forEach(arr2 => {
+        arr2.forEach(item => {
+            console.log(item);
+        });
+    });
+};
+
+const table : number[][] = [[1,2,3],[4,5,6],[7,8,9]];
+
+console.log(iterateTable(table));
